@@ -1,0 +1,345 @@
+/* Desktop Version */
+.navbar {
+    transition: all 0.4s;
+    margin-top: -45px;
+}
+
+.navbar h2 {
+    font-family: 'Satisfy', cursive;
+    /* font-weight: bold; */
+    font-size: 35px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.navbar .nav-link {
+    color: whitesmoke;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: whitesmoke;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: black;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: whitesmoke;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: whitesmoke;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+
+.card {
+    padding: 25px 25px 30px 0px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0px 300px 0px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.contact h2 {
+    /* margin-bottom: 5px; */
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact .text-p {
+    margin: -20px 0px 50px 0px;
+    text-align: center;
+
+}
+
+.contact hr {
+    margin-bottom: -100px;
+}
+
+.card {
+    margin: 30px 30px 0px 60px;
+    text-align: center;
+}
+
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    background-image: url('img/jumbotron2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 680px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    font-weight: 100;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+}
+
+.button {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+hr {
+    width: 200px;
+    border-top: 1px solid#333;
+    margin-top: -2px;
+}
+
+section .portofolio {
+    min-height: 600px;
+}
+
+.about p {
+    margin-top: 20px;
+    color: #6c757d
+}
+
+.about h2 {
+    font-weight: bold;
+}
+
+.about .row {
+    margin-top: 50px;
+}
+
+.about .col {
+    text-align: center !important;
+}
+
+.fa-stack {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2.5em;
+}
+
+.fa-4x {
+    font-size: 4em;
+}
+
+.fa-circle+i {
+    position: relative;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Pro";
+}
+
+span i {
+    font-size: 3.25rem;
+}
+
+.portofolio {
+    background-color: #eee;
+}
+
+.portofolio h2 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+.skill hr {
+    margin-bottom: 50px;
+}
+
+.skill .col {
+    margin-bottom: 30px;
+}
+
+.skill h2 {
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.col .backend {
+    float: right;
+}
+
+.icon-image-1 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.icon-image-2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.icon-image-3 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.text-margin-1 {
+    text-align: right;
+}
+
+.text-margin-3 {
+    text-align: right;
+}
+
+
+
+.contact {
+    min-height: 800px;
+}
+
+.contact hr {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+
+}
+
+footer p {
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+
+.modal-full {
+    min-width: 100%;
+    margin-top: -50px;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
+.figure {
+    display: inline-block;
+    padding: 0px 30px 30px 30px;
+}
+
+.modal-body #btn-repo {
+    background-color: #2c3e50 !important;
+    color: #fff;
+    margin: 20px 20px 0px 20px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.modal-body #btn-link {
+    color: #fff;
+    margin: 20px 20px 0px 20px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.modal-body {
+    margin: 50px 200px 50px 200px;
+    text-align: center;
+}
+
+.modal-body h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.topSection {
+    min-height: 100vh;
+}
